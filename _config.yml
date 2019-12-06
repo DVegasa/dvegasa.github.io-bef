@@ -8,14 +8,14 @@ url: "https://dvegasa.github.io" # the base hostname & protocol for your site, e
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: Hello, world! # add banner title
-banner-desc: Meow, meow# add banner description
+banner-title: Эдуард 'DVegasa' Халтурин # add banner title
+banner-desc: Android разработчик
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: # your name
-about-author: # about author
-email:  # your email
+author-name: Эдуард Халтурин # your name
+about-author: Android разработчик, Волгоград # about author
+email: ed.khalturin@gmail.com # your email
 phone:  # your pnone number
 website: dvegasa.github.io # you website
 
