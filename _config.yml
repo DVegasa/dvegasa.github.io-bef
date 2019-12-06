@@ -7,8 +7,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dvegasa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: mountains.mp4 # add banner video. Add your video file to the folder video
-# image: banner.jpg
+video: banner.jpg # add banner video. Add your video file to the folder video
 banner-title: Эдуард 'DVegasa' Халтурин # add banner title
 banner-desc: Android разработчик
 
