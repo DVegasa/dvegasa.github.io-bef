@@ -4297,7 +4297,7 @@ cite {
 
 .post .entry_content img {
   max-width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 .post .entry_content img.vertical {
