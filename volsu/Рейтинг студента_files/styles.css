@@ -1,0 +1,298 @@
+h1 {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+
+.abitur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.abitur > .link-block {
+    width: 848px;
+    max-height: 431px;
+    height: auto;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-family: Philosopher, Trebuchet MS, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.abitur > .abitur-little {
+    display: flex;
+    height: 210px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.abitur > .abitur-little > .link-block {
+    /* height: 210px; */
+    height: auto;
+    width: 100%;
+    height: auto;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-family: Philosopher, Trebuchet MS, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+.abitur > .abitur-little > .link-block:first-child {
+    margin-right: 10px;
+}
+
+.abitur .link-block:hover {
+    color: #002d46;
+}
+
+.abitur .link-block > .link-block__link {
+    padding: 0 10px;
+}
+
+.abitur .link-block img {
+	min-height: 210px;
+	display: inline-block;
+}
+
+.abitur.graduate > .link-block {
+	margin-top: 10px;
+	height: 210px;
+	display: flex;
+	align-items: center;
+}
+
+p.association {
+	font-size: 24px;
+	margin-bottom: 20px !important;
+	font-family: Philosopher, Trebuchet MS, sans-serif
+}
+
+.association i {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.cod-container {
+	text-align: center;
+}
+
+.cod-container p {
+	text-align: justify;
+}
+
+.cod-container .image-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px -5px;
+	align-items: flex-start;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.cod-container .image-container .image {
+	width: 33.33%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.cod-container .image-container.just-2 .image:first-child {
+	width: 57%;
+}
+
+.cod-container .image-container.just-2 .image:last-child {
+	width: 43%;
+}
+
+.cod-container .image-container.full-width .image {
+	width: 100%;
+}
+
+.cod-container .image-container:after, .cod-container .image-container:before {
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	content: "";
+	height: .5px;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+} 
+
+.cod-container .image-container:before {
+	top: 0px;
+}
+
+.cod-container .image-container:after {
+	bottom: 0px;
+}
+
+.cod-container .title {
+	display: inline-block;
+	margin: 10px auto;
+	font-family: Philosopher, Arial;
+	font-size: 24px;
+}
+
+.cod-container ol li {
+	text-align: left;
+}
+
+.story blockquote {
+	margin: 25px 0;
+	padding-left: 50px;
+	border-left: 1px solid black;
+}
+
+.story span.title {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "Philosopher"
+}
+
+.story .person {
+	margin-top: 30px;
+}
+
+.story .person .head {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.story .person img {
+	position: relative;
+	z-index: 5;
+	border-radius: 0 !important;
+}
+
+.story .person .head .number {
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid black;
+	padding: 7px;
+	font-size: 20px;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.story .person .head .name b {
+	font-size: 24px;
+}
+
+.story > p > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.story p {
+	text-align: justify;
+}
+
+.story .person .info {
+	margin-bottom: 10px;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	position: relative;
+	top: -1px;
+}
+
+.story .person .info .info-block .label {
+	display: block;
+}
+
+.story .person .info .info-block .value {
+	font-weight: bold;
+}
+
+.main__content p.in-border {
+	padding: 3px 6px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+@media screen and (min-width:780px) and (max-width: 1200px) {
+
+	.cod-container table tr {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cod-container table tr td {
+		width: 100% !important;
+	}
+
+    .abitur > .abitur-little {
+        height: 170px;
+    }
+
+    .abitur > .abitur-little > .link-block {
+        height: 170px;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+	.cod-container .image-container .image,
+	.cod-container .image-container.just-2 .image:first-child,
+	.cod-container .image-container.just-2 .image:last-child {
+		width: 100%;
+	}
+    .abitur > .abitur-little {
+        flex-direction: column;
+        height: auto;
+    }
+
+	.abitur.graduate > .link-block {
+		height: auto;
+	}
+
+    .abitur > .abitur-little > .link-block {
+        /* height: 210px; */
+    }
+    .abitur > .abitur-little > .link-block:first-child {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:575px) {
+    .abitur .link-block__link {
+        font-size: 30px;
+    }
+}
+
+.flex_panel {
+	float: left;
+	margin: 5px;
+}
+
+.flex_panel > a {
+	margin-top: 5px;
+}

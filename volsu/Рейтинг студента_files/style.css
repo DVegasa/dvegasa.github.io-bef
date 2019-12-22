@@ -1,0 +1,42 @@
+/* Left menu*/
+ul.left-menu
+{
+	/*list-style:none;*/
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 4px 0px;
+	
+}
+
+ul.left-menu li a
+{
+	color:#037DD3;
+	line-height: 100%;
+	
+}
+
+ul.left-menu li a:visited
+{
+	color:#037DD3;
+}
+
+ul.left-menu li a:hover
+{
+	color:#FF0000;
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#03497B;
+}
+
+
