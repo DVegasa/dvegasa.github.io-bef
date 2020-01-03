@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Приложение "ВолГУ Рейтинг"
+title: "Приложение ВолГУ Рейтинг"
 img: preview_volsu_rating.jpg
 date: 2020-01-03 12:00:00 +0300
 description:
